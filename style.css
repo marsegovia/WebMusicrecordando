@@ -1,0 +1,1359 @@
+.Footer {
+    background-color: black;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -20px;
+}
+.SectionFooter{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.First{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+.Second{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 2em;
+}
+
+#texto{
+    font-size: 15px;
+    color: gray;
+}
+
+.Canciones{
+    margin-top: 50px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Menu_Lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 2em;
+    list-style: none;
+    width: 100%;
+    text-align: right;
+}
+
+.Menu_Lista li a{
+    text-decoration: none;
+    color: darkslateblue;
+}
+
+.Menu_Lista li a:hover{
+    color: white;
+}
+
+.Header{
+    color: white;
+    background-color: black;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.subheader{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+#logo{
+    height: 8em;
+    cursor: pointer;
+    margin-left: -20%;
+}
+
+/* ----------------IMAGEN 0 ------------------*/
+
+.img1 {
+    height: 328px;
+    margin-left: 55px;
+    position: relative; /* Necesario para el posicionamiento */
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Sombra negra */
+}
+
+.img1-container {
+    height: 300px;
+    position: relative; /* Necesario para que el texto se posicione sobre la imagen */
+}
+
+.img1-container:hover .img1 {
+    background-color: black; /* Cambia el fondo de la imagen a negro al pasar el cursor */
+    filter: brightness(50%); /* Oscurece la imagen en lugar de cambiar el fondo */
+}
+
+.img1-container:hover{
+    opacity: 1; /* Muestra el nombre de la canción al pasar el cursor */
+}
+
+.img1-container {
+    position: relative;
+    display: inline-block;
+}
+
+.img1-container:hover,
+.img1-container:hover .play-button-1 {
+    opacity: 1;
+}
+
+.time-bar1 {
+    position: absolute;
+    left: 55%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: darkmagenta;
+    transition: opacity 0.4s ease;
+    top: 100%;
+    width: 75%;
+}
+
+.img1-container:hover .time-bar {
+    opacity: 1;
+}
+
+.play-button-1 {
+    position: absolute;
+    left: 60%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    transition: opacity 0.4s ease;
+    font-size: 4em;
+    opacity: 0;
+    cursor: pointer;
+    top: 45%;
+}
+
+.play-button-1:hover {
+    color: darkorchid; /* Cambia el color del botón al pasar el cursor */
+}
+
+#progress-bar-1 {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .15s ease-in-out;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#progress-bar-1:hover {
+    opacity: 1;
+}
+
+#progress-bar-1::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    background: red; /* Color del botón de la barra */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#progress-bar-1::-moz-range-thumb {
+    width: 12px;
+    height: 12px;
+    background: red; /* Color del botón de la barra */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* ----------------IMAGEN 1------------------*/
+
+.img2 {
+    height: 328px;
+    margin-left: 70px;
+    position: relative; /* Necesario para el posicionamiento */
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.img2-container {
+    position: relative; /* Necesario para que el texto se posicione sobre la imagen */
+}
+
+.img2-container:hover .img2 {
+    background-color: black; /* Cambia el fondo de la imagen a negro al pasar el cursor */
+    filter: brightness(50%); /* Oscurece la imagen en lugar de cambiar el fondo */
+}
+
+.img2-container:hover {
+    opacity: 1; /* Muestra el nombre de la canción al pasar el cursor */
+}
+
+.img2-container {
+    position: relative;
+    display: inline-block;
+}
+
+.img2-container:hover,
+.img2-container:hover .play-button-2 {
+    opacity: 1;
+}
+
+.time-bar2 {
+    position: absolute;
+    left: 58%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: darkmagenta;
+    transition: opacity 0.4s ease;
+    top: 91%;
+    width: 75%;
+}
+
+.img2-container:hover .time-bar2 {
+    opacity: 1;
+}
+
+.play-button-2 {
+    position: absolute;
+    left: 59%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    transition: opacity 0.4s ease;
+    font-size: 4em;
+    opacity: 0;
+    cursor: pointer;
+    top: 40%;
+}
+
+.play-button-2:hover {
+    color: darkorchid; /* Cambia el color del botón al pasar el cursor */
+}
+
+#progress-bar-2 {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .15s ease-in-out;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#progress-bar-2:hover {
+    opacity: 1;
+}
+
+#progress-bar-2::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    background: red; /* Color del botón de la barra */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#progress-bar-2::-moz-range-thumb {
+    width: 12px;
+    height: 12px;
+    background: red; /* Color del botón de la barra */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* -------------------------IMAGEN 2 -----------------------*/
+.img3 {
+    height: 328px;
+    margin-left: 80px;
+    position: relative; /* Necesario para el posicionamiento */
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.img3-container {
+    position: relative; /* Necesario para que el texto se posicione sobre la imagen */
+}
+
+.img3-container:hover .img3 {
+    background-color: black; /* Cambia el fondo de la imagen a negro al pasar el cursor */
+    filter: brightness(50%); /* Oscurece la imagen en lugar de cambiar el fondo */
+}
+
+.img3-container {
+    position: relative;
+    display: inline-block;
+}
+
+.img3-container:hover,
+.img3-container:hover .play-button-3 {
+    opacity: 1;
+}
+
+.img3-container:hover .time-bar3 {
+    opacity: 1;
+}
+
+.time-bar3 {
+    position: absolute;
+    left: 58%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: darkmagenta;
+    transition: opacity 0.4s ease;
+    top: 91%;
+    width: 72%;
+}
+
+.play-button-3 {
+    position: absolute;
+    left: 59%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    top: 40%;
+    font-size: 4em;
+    opacity: 0;
+    cursor: pointer;
+    transition: opacity 0.4s ease;
+}
+
+.play-button-3:hover {
+    color: darkorchid; /* Cambia el color del botón al pasar el cursor */
+}
+
+#progress-bar-3 {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .15s ease-in-out;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#progress-bar-3:hover {
+    opacity: 1;
+}
+
+#progress-bar-3::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    background: red; /* Color del botón de la barra */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#progress-bar-3::-moz-range-thumb {
+    width: 12px;
+    height: 12px;
+    background: red; /* Color del botón de la barra */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+
+.Section1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 90px;
+    margin-left: -22px;
+}
+/* -------- IMAGEN 4 ------ */
+
+.img4 {
+    height: 328px;
+    margin-left: 80px;
+    position: relative; /* Necesario para el posicionamiento */
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.img4-container {
+    position: relative; /* Necesario para que el texto se posicione sobre la imagen */
+}
+
+.img4-container:hover .img4 {
+    background-color: black; /* Cambia el fondo de la imagen a negro al pasar el cursor */
+    filter: brightness(50%); /* Oscurece la imagen en lugar de cambiar el fondo */
+}
+
+.img4-container {
+    position: relative;
+    display: inline-block;
+}
+
+.img4-container:hover,
+.img4-container:hover .play-button-4 {
+    opacity: 1;
+}
+
+.img4-container:hover .time-bar4 {
+    opacity: 1;
+}
+
+.time-bar4 {
+    position: absolute;
+    left: 58%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: darkmagenta;
+    transition: opacity 0.4s ease;
+    top: 91%;
+    width: 72%;
+}
+
+.play-button-4 {
+    position: absolute;
+    left: 59%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    top: 40%;
+    font-size: 4em;
+    opacity: 0;
+    cursor: pointer;
+    transition: opacity 0.4s ease;
+}
+
+.play-button-4:hover {
+    color: darkorchid; /* Cambia el color del botón al pasar el cursor */
+}
+
+#progress-bar-4 {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .15s ease-in-out;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#progress-bar-4:hover {
+    opacity: 1;
+}
+
+#progress-bar-4::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    background: red; /* Color del botón de la barra */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#progress-bar-4::-moz-range-thumb {
+    width: 12px;
+    height: 12px;
+    background: red; /* Color del botón de la barra */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.img5 {
+    height: 328px;
+    margin-left: 70px;
+    position: relative; /* Necesario para el posicionamiento */
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.img5-container {
+    position: relative; /* Necesario para que el texto se posicione sobre la imagen */
+}
+
+.img5-container:hover .img5 {
+    background-color: black; /* Cambia el fondo de la imagen a negro al pasar el cursor */
+    filter: brightness(50%); /* Oscurece la imagen en lugar de cambiar el fondo */
+}
+
+.img5-container {
+    position: relative;
+    display: inline-block;
+}
+
+.img5-container:hover,
+.img5-container:hover .play-button-5 {
+    opacity: 1;
+}
+
+.img5-container:hover .time-bar5 {
+    opacity: 1;
+}
+
+.time-bar5 {
+    position: absolute;
+    left: 58%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: darkmagenta;
+    transition: opacity 0.4s ease;
+    top: 91%;
+    width: 72%;
+}
+
+.play-button-5 {
+    position: absolute;
+    left: 59%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    top: 40%;
+    font-size: 4em;
+    opacity: 0;
+    cursor: pointer;
+    transition: opacity 0.4s ease;
+}
+
+.play-button-5:hover {
+    color: darkorchid; /* Cambia el color del botón al pasar el cursor */
+}
+
+#progress-bar-5{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .15s ease-in-out;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#progress-bar-5:hover {
+    opacity: 1;
+}
+
+#progress-bar-5::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    background: red; /* Color del botón de la barra */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#progress-bar-5::-moz-range-thumb {
+    width: 12px;
+    height: 12px;
+    background: red; /* Color del botón de la barra */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* --------- IMAGEn 6 ----- */
+.img6 {
+    height: 328px;
+    margin-left: 80px;
+    position: relative; /* Necesario para el posicionamiento */
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.img6-container {
+    position: relative; /* Necesario para que el texto se posicione sobre la imagen */
+}
+
+.img6-container:hover .img6 {
+    background-color: black; /* Cambia el fondo de la imagen a negro al pasar el cursor */
+    filter: brightness(50%); /* Oscurece la imagen en lugar de cambiar el fondo */
+}
+
+.img6-container {
+    position: relative;
+    display: inline-block;
+}
+
+.img6-container:hover,
+.img6-container:hover .play-button-6 {
+    opacity: 1;
+}
+
+.img6-container:hover .time-bar6 {
+    opacity: 1;
+}
+
+.time-bar6 {
+    position: absolute;
+    left: 58%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: darkmagenta;
+    transition: opacity 0.4s ease;
+    top: 91%;
+    width: 72%;
+}
+
+.play-button-6 {
+    position: absolute;
+    left: 59%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    top: 40%;
+    font-size: 4em;
+    opacity: 0;
+    cursor: pointer;
+    transition: opacity 0.4s ease;
+}
+
+.play-button-6:hover {
+    color: darkorchid; /* Cambia el color del botón al pasar el cursor */
+}
+
+#progress-bar-6{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .15s ease-in-out;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#progress-bar-6:hover {
+    opacity: 1;
+}
+
+#progress-bar-6::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    background: red; /* Color del botón de la barra */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#progress-bar-6::-moz-range-thumb {
+    width: 12px;
+    height: 12px;
+    background: red; /* Color del botón de la barra */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.Section2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 90px;
+}
+
+.img7 {
+    height: 328px;
+    margin-left: 60px;
+    position: relative; /* Necesario para el posicionamiento */
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.img7-container {
+    position: relative; /* Necesario para que el texto se posicione sobre la imagen */
+}
+
+.img7-container:hover .img7 {
+    background-color: black; /* Cambia el fondo de la imagen a negro al pasar el cursor */
+    filter: brightness(50%); /* Oscurece la imagen en lugar de cambiar el fondo */
+}
+
+.img7-container {
+    position: relative;
+    display: inline-block;
+}
+
+.img7-container:hover,
+.img7-container:hover .play-button-7 {
+    opacity: 1;
+}
+
+.img7-container:hover .time-bar7 {
+    opacity: 1;
+}
+
+.time-bar7 {
+    position: absolute;
+    left: 58%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: darkmagenta;
+    transition: opacity 0.4s ease;
+    top: 91%;
+    width: 72%;
+}
+
+.play-button-7 {
+    position: absolute;
+    left: 59%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    top: 40%;
+    font-size: 4em;
+    opacity: 0;
+    cursor: pointer;
+    transition: opacity 0.4s ease;
+}
+
+.play-button-7:hover {
+    color: darkorchid; /* Cambia el color del botón al pasar el cursor */
+}
+
+#progress-bar-7{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .15s ease-in-out;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#progress-bar-7:hover {
+    opacity: 1;
+}
+
+#progress-bar-7::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    background: red; /* Color del botón de la barra */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#progress-bar-7::-moz-range-thumb {
+    width: 12px;
+    height: 12px;
+    background: red; /* Color del botón de la barra */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.img8 {
+    height: 328px;
+    margin-left: 70px;
+    position: relative; /* Necesario para el posicionamiento */
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.img8-container {
+    position: relative; /* Necesario para que el texto se posicione sobre la imagen */
+}
+
+.img8-container:hover .img8 {
+    background-color: black; /* Cambia el fondo de la imagen a negro al pasar el cursor */
+    filter: brightness(50%); /* Oscurece la imagen en lugar de cambiar el fondo */
+}
+
+.img8-container {
+    position: relative;
+    display: inline-block;
+}
+
+.img8-container:hover,
+.img8-container:hover .play-button-8 {
+    opacity: 1;
+}
+
+.img8-container:hover .time-bar8 {
+    opacity: 1;
+}
+
+.time-bar8 {
+    position: absolute;
+    left: 58%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: darkmagenta;
+    transition: opacity 0.4s ease;
+    top: 91%;
+    width: 72%;
+}
+
+.play-button-8 {
+    position: absolute;
+    left: 59%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    top: 40%;
+    font-size: 4em;
+    opacity: 0;
+    cursor: pointer;
+    transition: opacity 0.4s ease;
+}
+
+.play-button-8:hover {
+    color: darkorchid; /* Cambia el color del botón al pasar el cursor */
+}
+
+#progress-bar-8{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .15s ease-in-out;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#progress-bar-8:hover {
+    opacity: 1;
+}
+
+#progress-bar-8::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    background: red; /* Color del botón de la barra */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#progress-bar-8::-moz-range-thumb {
+    width: 12px;
+    height: 12px;
+    background: red; /* Color del botón de la barra */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.img9 {
+    height: 328px;
+    margin-left: 80px;
+    position: relative; /* Necesario para el posicionamiento */
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.img9-container {
+    position: relative; /* Necesario para que el texto se posicione sobre la imagen */
+}
+
+.img9-container:hover .img9 {
+    background-color: black; /* Cambia el fondo de la imagen a negro al pasar el cursor */
+    filter: brightness(50%); /* Oscurece la imagen en lugar de cambiar el fondo */
+}
+
+.img9-container {
+    position: relative;
+    display: inline-block;
+}
+
+.img9-container:hover,
+.img9-container:hover .play-button-9 {
+    opacity: 1;
+}
+
+.img9-container:hover .time-bar9 {
+    opacity: 1;
+}
+
+.time-bar9 {
+    position: absolute;
+    left: 58%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: darkmagenta;
+    transition: opacity 0.4s ease;
+    top: 91%;
+    width: 72%;
+}
+
+.play-button-9 {
+    position: absolute;
+    left: 59%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    top: 40%;
+    font-size: 4em;
+    opacity: 0;
+    cursor: pointer;
+    transition: opacity 0.4s ease;
+}
+
+.play-button-9:hover {
+    color: darkorchid; /* Cambia el color del botón al pasar el cursor */
+}
+
+#progress-bar-9{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .15s ease-in-out;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#progress-bar-9:hover {
+    opacity: 1;
+}
+
+#progress-bar-9::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    background: red; /* Color del botón de la barra */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#progress-bar-9::-moz-range-thumb {
+    width: 12px;
+    height: 12px;
+    background: red; /* Color del botón de la barra */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.Section3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 90px;
+}
+
+
+.img10 {
+    height: 328px;
+    margin-left: 80px;
+    position: relative; /* Necesario para el posicionamiento */
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.img10-container {
+    position: relative; /* Necesario para que el texto se posicione sobre la imagen */
+}
+
+.img10-container:hover .img10 {
+    background-color: black; /* Cambia el fondo de la imagen a negro al pasar el cursor */
+    filter: brightness(50%); /* Oscurece la imagen en lugar de cambiar el fondo */
+}
+
+.img10-container {
+    position: relative;
+    display: inline-block;
+}
+
+.img10-container:hover,
+.img10-container:hover .play-button-10 {
+    opacity: 1;
+}
+
+.img10-container:hover .time-bar10 {
+    opacity: 1;
+}
+
+.time-bar10{
+    position: absolute;
+    left: 58%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: darkmagenta;
+    transition: opacity 0.4s ease;
+    top: 91%;
+    width: 72%;
+}
+
+.play-button-10{
+    position: absolute;
+    left: 59%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    top: 40%;
+    font-size: 4em;
+    opacity: 0;
+    cursor: pointer;
+    transition: opacity 0.4s ease;
+}
+
+.play-button-10:hover {
+    color: darkorchid; /* Cambia el color del botón al pasar el cursor */
+}
+
+#progress-bar-10{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .15s ease-in-out;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#progress-bar-10:hover {
+    opacity: 1;
+}
+
+#progress-bar-10::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    background: red; /* Color del botón de la barra */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#progress-bar-10::-moz-range-thumb {
+    width: 12px;
+    height: 12px;
+    background: red; /* Color del botón de la barra */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.img11 {
+    height: 328px;
+    margin-left: 80px;
+    position: relative; /* Necesario para el posicionamiento */
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.img11-container {
+    position: relative; /* Necesario para que el texto se posicione sobre la imagen */
+}
+
+.img11-container:hover .img11 {
+    background-color: black; /* Cambia el fondo de la imagen a negro al pasar el cursor */
+    filter: brightness(50%); /* Oscurece la imagen en lugar de cambiar el fondo */
+}
+
+.img11-container {
+    position: relative;
+    display: inline-block;
+}
+
+.img11-container:hover,
+.img11-container:hover .play-button-11 {
+    opacity: 1;
+}
+
+.img11-container:hover .time-bar11 {
+    opacity: 1;
+}
+
+.time-bar11{
+    position: absolute;
+    left: 58%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: darkmagenta;
+    transition: opacity 0.4s ease;
+    top: 91%;
+    width: 72%;
+}
+
+.play-button-11{
+    position: absolute;
+    left: 59%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    top: 40%;
+    font-size: 4em;
+    opacity: 0;
+    cursor: pointer;
+    transition: opacity 0.4s ease;
+}
+
+.play-button-11:hover {
+    color: darkorchid; /* Cambia el color del botón al pasar el cursor */
+}
+
+#progress-bar-11{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .15s ease-in-out;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#progress-bar-11:hover {
+    opacity: 1;
+}
+
+#progress-bar-11::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    background: red; /* Color del botón de la barra */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#progress-bar-11::-moz-range-thumb {
+    width: 12px;
+    height: 12px;
+    background: red; /* Color del botón de la barra */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.img12 {
+    height: 328px;
+    margin-left: 80px;
+    position: relative; /* Necesario para el posicionamiento */
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.img12-container {
+    position: relative; /* Necesario para que el texto se posicione sobre la imagen */
+}
+
+.img12-container:hover .img12 {
+    background-color: black; /* Cambia el fondo de la imagen a negro al pasar el cursor */
+    filter: brightness(50%); /* Oscurece la imagen en lugar de cambiar el fondo */
+}
+
+.img12-container {
+    position: relative;
+    display: inline-block;
+}
+
+.img12-container:hover,
+.img12-container:hover .play-button-12 {
+    opacity: 1;
+}
+
+.img12-container:hover .time-bar12 {
+    opacity: 1;
+}
+
+.time-bar12{
+    position: absolute;
+    left: 58%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: darkmagenta;
+    transition: opacity 0.4s ease;
+    top: 91%;
+    width: 72%;
+}
+
+.play-button-12{
+    position: absolute;
+    left: 59%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    top: 40%;
+    font-size: 4em;
+    opacity: 0;
+    cursor: pointer;
+    transition: opacity 0.4s ease;
+}
+
+.play-button-12:hover {
+    color: darkorchid; /* Cambia el color del botón al pasar el cursor */
+}
+
+#progress-bar-12{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .15s ease-in-out;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#progress-bar-12:hover {
+    opacity: 1;
+}
+
+#progress-bar-12::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    background: red; /* Color del botón de la barra */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#progress-bar-12::-moz-range-thumb {
+    width: 12px;
+    height: 12px;
+    background: red; /* Color del botón de la barra */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.Section4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 90px;
+}
+
+
+.img13 {
+    height: 328px;
+    margin-left: 80px;
+    position: relative; /* Necesario para el posicionamiento */
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.img13-container {
+    position: relative; /* Necesario para que el texto se posicione sobre la imagen */
+}
+
+.img13-container:hover .img13 {
+    background-color: black; /* Cambia el fondo de la imagen a negro al pasar el cursor */
+    filter: brightness(50%); /* Oscurece la imagen en lugar de cambiar el fondo */
+}
+
+.img13-container {
+    position: relative;
+    display: inline-block;
+}
+
+.img13-container:hover,
+.img13-container:hover .play-button-13 {
+    opacity: 1;
+}
+
+.img13-container:hover .time-bar13 {
+    opacity: 1;
+}
+
+.time-bar13{
+    position: absolute;
+    left: 58%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: darkmagenta;
+    transition: opacity 0.4s ease;
+    top: 91%;
+    width: 72%;
+}
+
+.play-button-13{
+    position: absolute;
+    left: 59%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    top: 40%;
+    font-size: 4em;
+    opacity: 0;
+    cursor: pointer;
+    transition: opacity 0.4s ease;
+}
+
+.play-button-13:hover {
+    color: darkorchid; /* Cambia el color del botón al pasar el cursor */
+}
+
+#progress-bar-13{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 8px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity .15s ease-in-out;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#progress-bar-13:hover {
+    opacity: 1;
+}
+
+#progress-bar-13::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    background: red; /* Color del botón de la barra */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#progress-bar-13::-moz-range-thumb {
+    width: 12px;
+    height: 12px;
+    background: red; /* Color del botón de la barra */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: Grafiti;
+    src: url('./Streetbomber.ttf');
+}
+
+.Texto_Titulo{
+    font-family: Grafiti;
+    font-size: 60px;
+
+}
