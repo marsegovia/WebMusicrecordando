@@ -77,7 +77,7 @@
 }
 
 #logo{
-    height: 8em;
+    height: 6em;
     cursor: pointer;
     margin-left: -20%;
 }
@@ -1356,4 +1356,239 @@
     font-family: Grafiti;
     font-size: 60px;
 
+}
+
+
+@media (max-width: 768px) {
+    .subheader {
+        flex-direction: column;
+        align-items: center;
+        width: 700px;
+    }
+
+    #logo{
+        height: 3em;
+        width: 100px;
+        margin-top: 20px;
+        margin-right: 280px;
+    }
+
+    .Menu{
+        font-size: 6px;
+        margin-right: 540px;
+    }
+
+    .Canciones{
+        margin-top: 50px;
+        margin-left: -20px;
+        flex-direction: column;
+    }
+
+    .img1 {
+        height: 230px;
+        margin-left: 35px;
+    }
+
+    .play-button-1 {
+        left: 35%;
+        font-size: 4em;
+        top: 28%;
+    }
+
+    .time-bar1 {
+        left: 35%;
+        top: 70%;
+        width: 52%;
+    }
+
+    .img2 {
+        height: 230px;
+        margin-left: 35px;
+    }
+
+    .play-button-2 {
+        left: 35%;
+        font-size: 4em;
+        top: 28%;
+    }
+
+    .time-bar2 {
+        left: 35%;
+        top: 70%;
+        width: 52%;
+    }
+
+    .img3 {
+        height: 230px;
+        margin-left: 35px;
+    }
+
+    .play-button-3 {
+        left: 35%;
+        font-size: 4em;
+        top: 28%;
+    }
+
+    .time-bar3 {
+        left: 35%;
+        top: 70%;
+        width: 52%;
+    }
+
+    .img4 {
+        height: 230px;
+        margin-left: 35px;
+    }
+
+    .play-button-4 {
+        left: 35%;
+        font-size: 4em;
+        top: 28%;
+    }
+
+    .time-bar4 {
+        left: 35%;
+        top: 70%;
+        width: 52%;
+    }
+
+    .img5 {
+        height: 230px;
+        margin-left: 35px;
+    }
+
+    .play-button-5 {
+        left: 35%;
+        font-size: 4em;
+        top: 28%;
+    }
+
+    .time-bar5 {
+        left: 35%;
+        top: 70%;
+        width: 52%;
+    }
+
+    .img6 {
+        height: 230px;
+        margin-left: 35px;
+    }
+
+    .play-button-6 {
+        left: 35%;
+        font-size: 4em;
+        top: 28%;
+    }
+
+    .time-bar6 {
+        left: 35%;
+        top: 70%;
+        width: 52%;
+    }
+
+    .img7 {
+        height: 230px;
+        margin-left: 35px;
+    }
+
+    .play-button-7 {
+        left: 35%;
+        font-size: 4em;
+        top: 28%;
+    }
+
+    .time-bar7 {
+        left: 35%;
+        top: 70%;
+        width: 52%;
+    }
+
+    .img8 {
+        height: 230px;
+        margin-left: 35px;
+    }
+
+    .play-button-8 {
+        left: 35%;
+        font-size: 4em;
+        top: 28%;
+    }
+
+    .time-bar8 {
+        left: 35%;
+        top: 70%;
+        width: 52%;
+    }
+
+    .img9 {
+        height: 230px;
+        margin-left: 35px;
+    }
+
+    .play-button-9 {
+        left: 35%;
+        font-size: 4em;
+        top: 28%;
+    }
+
+    .time-bar9 {
+        left: 35%;
+        top: 70%;
+        width: 52%;
+    }
+
+    .img10 {
+        height: 230px;
+        margin-left: 35px;
+    }
+
+    .play-button-10 {
+        left: 35%;
+        font-size: 4em;
+        top: 28%;
+    }
+
+    .time-bar10 {
+        left: 35%;
+        top: 70%;
+        width: 52%;
+    }
+
+    .img11 {
+        height: 230px;
+        margin-left: 35px;
+    }
+
+    .play-button-11 {
+        left: 35%;
+        font-size: 4em;
+        top: 28%;
+    }
+
+    .time-bar11 {
+        left: 35%;
+        top: 70%;
+        width: 52%;
+    }
+
+    .img12 {
+        height: 230px;
+        margin-left: 35px;
+    }
+
+    .play-button-12 {
+        left: 35%;
+        font-size: 4em;
+        top: 28%;
+    }
+
+    .time-bar12 {
+        left: 35%;
+        top: 70%;
+        width: 52%;
+    }
+
+    .Section1{
+        margin-right: 70px;
+    }
 }
