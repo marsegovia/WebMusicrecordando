@@ -1,9 +1,12 @@
+body{
+    margin: 0;
+}
+
 .Footer {
     background-color: black;
-    margin-left: -8px;
-    margin-right: -8px;
-    margin-bottom: -20px;
+    margin-bottom: -2em;
 }
+
 .SectionFooter{
     color: white;
     display: flex;
@@ -33,8 +36,8 @@
 }
 
 .Canciones{
-    margin-top: 50px;
-    margin-left: 30px;
+    margin-top: 5em;
+    margin-left: 2em;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -62,16 +65,13 @@
 .Header{
     color: white;
     background-color: black;
-    margin-left: -8px;
-    margin-right: -8px;
-    margin-top: -20px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
 .subheader{
-    margin-top: 30px;
+    margin-top: 2em;
     display: flex;
     flex-direction: row;
 }
@@ -80,20 +80,21 @@
     height: 6em;
     cursor: pointer;
     margin-left: -20%;
+    margin-right: 40%;
 }
 
 /* ----------------IMAGEN 0 ------------------*/
 
 .img1 {
-    height: 328px;
-    margin-left: 55px;
+    height: 21em;
+    margin-left: 4em;
     position: relative; /* Necesario para el posicionamiento */
     display: block; /* Asegura que la imagen se comporte como un bloque */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Sombra negra */
 }
 
 .img1-container {
-    height: 300px;
+    height: 19em;
     position: relative; /* Necesario para que el texto se posicione sobre la imagen */
 }
 
@@ -185,8 +186,8 @@
 /* ----------------IMAGEN 1------------------*/
 
 .img2 {
-    height: 328px;
-    margin-left: 70px;
+    height: 21em;
+    margin-left: 4em;
     position: relative; /* Necesario para el posicionamiento */
     display: block; /* Asegura que la imagen se comporte como un bloque */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
@@ -283,8 +284,8 @@
 
 /* -------------------------IMAGEN 2 -----------------------*/
 .img3 {
-    height: 328px;
-    margin-left: 80px;
+    height: 21em;
+    margin-left: 4em;
     position: relative; /* Necesario para el posicionamiento */
     display: block; /* Asegura que la imagen se comporte como un bloque */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
@@ -382,14 +383,14 @@
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-top: 90px;
-    margin-left: -22px;
+    margin-top: 5em;
+    margin-left: -1em;
 }
 /* -------- IMAGEN 4 ------ */
 
 .img4 {
-    height: 328px;
-    margin-left: 80px;
+    height: 21em;
+    margin-left: 5.4em;
     position: relative; /* Necesario para el posicionamiento */
     display: block; /* Asegura que la imagen se comporte como un bloque */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
@@ -482,8 +483,8 @@
 
 
 .img5 {
-    height: 328px;
-    margin-left: 70px;
+    height: 21em;
+    margin-left: 3.5em;
     position: relative; /* Necesario para el posicionamiento */
     display: block; /* Asegura que la imagen se comporte como un bloque */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
@@ -576,8 +577,8 @@
 
 /* --------- IMAGEn 6 ----- */
 .img6 {
-    height: 328px;
-    margin-left: 80px;
+    height: 21em;
+    margin-left: 3.9em;
     position: relative; /* Necesario para el posicionamiento */
     display: block; /* Asegura que la imagen se comporte como un bloque */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
@@ -673,12 +674,13 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 90px;
+    margin-top: 5em;
+    margin-left: -1em;
 }
 
 .img7 {
-    height: 328px;
-    margin-left: 60px;
+    height: 21em;
+    margin-left: 5.4em;
     position: relative; /* Necesario para el posicionamiento */
     display: block; /* Asegura que la imagen se comporte como un bloque */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
@@ -771,8 +773,8 @@
 
 
 .img8 {
-    height: 328px;
-    margin-left: 70px;
+    height: 21em;
+    margin-left: 3.5em;
     position: relative; /* Necesario para el posicionamiento */
     display: block; /* Asegura que la imagen se comporte como un bloque */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
@@ -865,8 +867,8 @@
 
 
 .img9 {
-    height: 328px;
-    margin-left: 80px;
+    height: 21em;
+    margin-left: 3.5em;
     position: relative; /* Necesario para el posicionamiento */
     display: block; /* Asegura que la imagen se comporte como un bloque */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
@@ -966,8 +968,8 @@
 
 
 .img10 {
-    height: 328px;
-    margin-left: 80px;
+    height: 21em;
+    margin-left: 3.5em;
     position: relative; /* Necesario para el posicionamiento */
     display: block; /* Asegura que la imagen se comporte como un bloque */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
@@ -1060,8 +1062,8 @@
 
 
 .img11 {
-    height: 328px;
-    margin-left: 80px;
+    height: 21em;
+    margin-left: 3.5em;
     position: relative; /* Necesario para el posicionamiento */
     display: block; /* Asegura que la imagen se comporte como un bloque */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
@@ -1153,8 +1155,8 @@
 }
 
 .img12 {
-    height: 328px;
-    margin-left: 80px;
+    height: 21em;
+    margin-left: 3.5em;
     position: relative; /* Necesario para el posicionamiento */
     display: block; /* Asegura que la imagen se comporte como un bloque */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
@@ -1250,13 +1252,13 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 90px;
+    margin-top: 5em;
 }
 
 
 .img13 {
-    height: 328px;
-    margin-left: 80px;
+    height: 21em;
+    margin-left: 3.5em;
     position: relative; /* Necesario para el posicionamiento */
     display: block; /* Asegura que la imagen se comporte como un bloque */
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
@@ -1355,240 +1357,267 @@
 .Texto_Titulo{
     font-family: Grafiti;
     font-size: 60px;
-
 }
 
-
 @media (max-width: 768px) {
+
     .subheader {
         flex-direction: column;
         align-items: center;
-        width: 700px;
+        width: 10em;
+        margin-left: 3em;
     }
 
     #logo{
-        height: 3em;
-        width: 100px;
-        margin-top: 20px;
-        margin-right: 280px;
+        height: 4em;
+        width: 10em;
+        margin-top: 0em;
     }
 
     .Menu{
         font-size: 6px;
-        margin-right: 540px;
+        margin-right: 90em;
     }
 
+    .Menu_Lista{
+        font-size: 2em;
+        width: 60%;
+        margin-left: 24em;
+    }
+    
     .Canciones{
-        margin-top: 50px;
-        margin-left: -20px;
+        margin-top: 3em;
+        margin-left: -2.9em;
         flex-direction: column;
     }
 
     .img1 {
-        height: 230px;
-        margin-left: 35px;
+        height: 20em;
     }
 
     .play-button-1 {
-        left: 35%;
+        left: 55%;
         font-size: 4em;
-        top: 28%;
+        top: 40%;
     }
 
     .time-bar1 {
-        left: 35%;
-        top: 70%;
-        width: 52%;
+        left: 55%;
+        top: 90%;
+        width: 70%;
     }
 
     .img2 {
-        height: 230px;
-        margin-left: 35px;
+        margin-top: 5em;
+        height: 20em;
     }
 
     .play-button-2 {
-        left: 35%;
+        left: 55%;
         font-size: 4em;
-        top: 28%;
+        top: 40%;
     }
 
     .time-bar2 {
-        left: 35%;
-        top: 70%;
-        width: 52%;
+        left: 55%;
+        top: 90%;
+        width: 70%;
     }
 
     .img3 {
-        height: 230px;
-        margin-left: 35px;
+        height: 20em;
+        margin-top: 5em;
     }
 
     .play-button-3 {
-        left: 35%;
+        left: 55%;
         font-size: 4em;
-        top: 28%;
+        top: 40%;
     }
 
     .time-bar3 {
-        left: 35%;
-        top: 70%;
-        width: 52%;
+        left: 55%;
+        top: 90%;
+        width: 70%;
     }
 
     .img4 {
-        height: 230px;
-        margin-left: 35px;
+        margin-top: 0em;
+        height: 20em;
     }
 
     .play-button-4 {
-        left: 35%;
+        left: 55%;
         font-size: 4em;
-        top: 28%;
+        top: 40%;
     }
 
     .time-bar4 {
-        left: 35%;
-        top: 70%;
-        width: 52%;
+        left: 60%;
+        top: 90%;
+        width: 70%;
     }
 
     .img5 {
-        height: 230px;
-        margin-left: 35px;
+        margin-top: 5em;
+        height: 20em;
     }
 
     .play-button-5 {
-        left: 35%;
+        left: 55%;
         font-size: 4em;
-        top: 28%;
+        top: 40%;
     }
 
     .time-bar5 {
-        left: 35%;
-        top: 70%;
-        width: 52%;
+        left: 60%;
+        top: 90%;
+        width: 70%;
     }
 
     .img6 {
-        height: 230px;
-        margin-left: 35px;
+        margin-top: 5em;
+        height: 20em;
     }
 
     .play-button-6 {
-        left: 35%;
+        left: 55%;
         font-size: 4em;
-        top: 28%;
+        top: 40%;
     }
 
     .time-bar6 {
-        left: 35%;
-        top: 70%;
-        width: 52%;
+        left: 60%;
+        top: 90%;
+        width: 70%;
     }
 
     .img7 {
-        height: 230px;
-        margin-left: 35px;
+        margin-top: 1em;
+        height: 20em;
     }
 
     .play-button-7 {
-        left: 35%;
+        left: 55%;
         font-size: 4em;
-        top: 28%;
+        top: 40%;
     }
 
     .time-bar7 {
-        left: 35%;
-        top: 70%;
-        width: 52%;
+        left: 60%;
+        top: 90%;
+        width: 70%;
     }
 
     .img8 {
-        height: 230px;
-        margin-left: 35px;
+        margin-top: 5em;
+        height: 20em;
     }
 
     .play-button-8 {
-        left: 35%;
+        left: 55%;
         font-size: 4em;
-        top: 28%;
+        top: 40%;
     }
 
     .time-bar8 {
-        left: 35%;
-        top: 70%;
-        width: 52%;
+        left: 60%;
+        top: 90%;
+        width: 70%;
     }
 
     .img9 {
-        height: 230px;
-        margin-left: 35px;
+        margin-top: 5em;
+        height: 20em;
     }
 
     .play-button-9 {
-        left: 35%;
+        left: 55%;
         font-size: 4em;
-        top: 28%;
+        top: 40%;
     }
 
     .time-bar9 {
-        left: 35%;
-        top: 70%;
-        width: 52%;
+        left: 60%;
+        top: 90%;
+        width: 70%;
     }
 
     .img10 {
-        height: 230px;
-        margin-left: 35px;
+        margin-top: 5em;
+        height: 20em;
     }
 
     .play-button-10 {
-        left: 35%;
+        left: 55%;
         font-size: 4em;
-        top: 28%;
+        top: 40%;
     }
 
     .time-bar10 {
-        left: 35%;
-        top: 70%;
-        width: 52%;
+        left: 60%;
+        top: 90%;
+        width: 70%;
     }
 
     .img11 {
-        height: 230px;
-        margin-left: 35px;
+        margin-top: 5em;
+        height: 20em;
     }
 
     .play-button-11 {
-        left: 35%;
+        left: 55%;
         font-size: 4em;
-        top: 28%;
+        top: 40%;
     }
 
     .time-bar11 {
-        left: 35%;
-        top: 70%;
-        width: 52%;
+        left: 60%;
+        top: 90%;
+        width: 70%;
     }
 
     .img12 {
-        height: 230px;
-        margin-left: 35px;
+        margin-top: 5em;
+        height: 20em;
     }
 
     .play-button-12 {
-        left: 35%;
+        left: 55%;
         font-size: 4em;
-        top: 28%;
+        top: 40%;
     }
 
     .time-bar12 {
-        left: 35%;
-        top: 70%;
-        width: 52%;
+        left: 60%;
+        top: 90%;
+        width: 70%;
     }
 
     .Section1{
         margin-right: 70px;
     }
+
+    .SectionFooter{
+        flex-direction: column;
+    }
+
+    .First{
+        font-size: 1em;
+        margin-left: 1em;
+        flex-direction: row;
+    }
+
+    .Second{
+    font-size: 1em;
+    flex-wrap: wrap;
+    font-weight: bold;
+    margin-left: 2em;
+    }
+
+    .Texto_Titulo{
+        font-family: Grafiti;
+        font-size: 40px;
+    }
+    
 }
