@@ -1372,6 +1372,7 @@ body{
         height: 4em;
         width: 10em;
         margin-top: 0em;
+        margin-left: 2em;
     }
 
     .Menu{
@@ -1387,7 +1388,7 @@ body{
     
     .Canciones{
         margin-top: 3em;
-        margin-left: -2.9em;
+        margin-left: -2em;
         flex-direction: column;
     }
 
@@ -1396,15 +1397,15 @@ body{
     }
 
     .play-button-1 {
-        left: 55%;
+        left: 50%;
         font-size: 4em;
         top: 40%;
     }
 
     .time-bar1 {
-        left: 55%;
-        top: 90%;
-        width: 70%;
+        left: 48%;
+        top: 95%;
+        width: 65%;
     }
 
     .img2 {
@@ -1413,15 +1414,15 @@ body{
     }
 
     .play-button-2 {
-        left: 55%;
+        left: 50%;
         font-size: 4em;
-        top: 40%;
+        top: 50%;
     }
 
     .time-bar2 {
-        left: 55%;
-        top: 90%;
-        width: 70%;
+        left: 48%;
+        top: 92%;
+        width: 65%;
     }
 
     .img3 {
@@ -1430,24 +1431,25 @@ body{
     }
 
     .play-button-3 {
-        left: 55%;
+        left: 50%;
         font-size: 4em;
-        top: 40%;
+        top: 50%;
     }
 
     .time-bar3 {
-        left: 55%;
-        top: 90%;
-        width: 70%;
+        left: 48%;
+        top: 92%;
+        width: 66%;
     }
 
     .img4 {
+        margin-left: 5em;
         margin-top: 0em;
         height: 20em;
     }
 
     .play-button-4 {
-        left: 55%;
+        left: 60%;
         font-size: 4em;
         top: 40%;
     }
@@ -1455,96 +1457,101 @@ body{
     .time-bar4 {
         left: 60%;
         top: 90%;
-        width: 70%;
+        width: 75%;
     }
 
     .img5 {
+        margin-left: 5em;
         margin-top: 5em;
         height: 20em;
     }
 
     .play-button-5 {
-        left: 55%;
+        left: 60%;
         font-size: 4em;
-        top: 40%;
+        top: 50%;
     }
 
     .time-bar5 {
         left: 60%;
         top: 90%;
-        width: 70%;
+        width: 75%;
     }
 
     .img6 {
+        margin-left: 5em;
         margin-top: 5em;
         height: 20em;
     }
 
     .play-button-6 {
-        left: 55%;
+        left: 60%;
         font-size: 4em;
-        top: 40%;
+        top: 50%;
     }
 
     .time-bar6 {
         left: 60%;
         top: 90%;
-        width: 70%;
+        width: 75%;
     }
 
     .img7 {
-        margin-top: 1em;
+        margin-right: 5em;
+        margin-top: 0em;
         height: 20em;
     }
 
     .play-button-7 {
-        left: 55%;
+        left: 50%;
         font-size: 4em;
         top: 40%;
     }
 
     .time-bar7 {
-        left: 60%;
-        top: 90%;
-        width: 70%;
+        left: 50%;
+        top: 88%;
+        width: 60%;
     }
 
     .img8 {
+        margin-left: 5em;
         margin-top: 5em;
         height: 20em;
     }
 
     .play-button-8 {
-        left: 55%;
+        left: 60%;
         font-size: 4em;
-        top: 40%;
+        top: 50%;
     }
 
     .time-bar8 {
         left: 60%;
         top: 90%;
-        width: 70%;
+        width: 72%;
     }
 
     .img9 {
+        margin-left: 5em;
         margin-top: 5em;
         height: 20em;
     }
 
     .play-button-9 {
-        left: 55%;
+        left: 60%;
         font-size: 4em;
-        top: 40%;
+        top: 50%;
     }
 
     .time-bar9 {
         left: 60%;
         top: 90%;
-        width: 70%;
+        width: 72%;
     }
 
     .img10 {
-        margin-top: 5em;
+        margin-top: 0em;
         height: 20em;
     }
 
@@ -1608,11 +1615,18 @@ body{
         flex-direction: row;
     }
 
+    #texto{
+        font-size: 20px;
+        margin-top: 3em;
+    }
+
     .Second{
+    margin-top: -2em;
     font-size: 1em;
     flex-wrap: wrap;
     font-weight: bold;
-    margin-left: 2em;
+    margin-left: 1em;
+    text-align: center;
     }
 
     .Texto_Titulo{
