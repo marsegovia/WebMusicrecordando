@@ -1,3 +1,11 @@
+html, body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
 body{
     margin: 0;
 }
@@ -68,6 +76,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    max-width: 100%;
 }
 
 .subheader{
