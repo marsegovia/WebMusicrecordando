@@ -5,9 +5,24 @@ html, body {
     width: 100%;
 }
 
-
 body{
     margin: 0;
+}
+
+#link2{
+    color: orangered;
+}
+
+#link1{
+    color: #E8A600;
+}
+
+#link3{
+    color: #8ECF56;
+}
+
+#link4{
+    color: #E31A1A;
 }
 
 .Footer {
@@ -63,7 +78,8 @@ body{
 
 .Menu_Lista li a{
     text-decoration: none;
-    color: darkslateblue;
+    font-family: Gordita;
+    font-size: 1em;
 }
 
 .Menu_Lista li a:hover{
@@ -1361,6 +1377,11 @@ body{
 @font-face {
     font-family: Grafiti;
     src: url('./Streetbomber.ttf');
+}
+
+@font-face {
+    font-family: Gordita;
+    src: url('./ChoretFudyngBubble-Regular.ttf');
 }
 
 .Texto_Titulo{
